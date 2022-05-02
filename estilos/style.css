@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+}
+
+nav {
+    background-color: cornflowerblue;
+}
+
+.menu {
+    text-align: center;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    padding: 45px;
+    /*Separar los bloques*/
+    color: brown;
+    text-decoration: none;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: aquamarine;
+}
+
+.entrada {
+    background-color: darkcyan;
+    color: blue;
+    text-align: center;
+    overflow: hidden;
+    /*Quitar el espacio sup. */
+    padding: 50px;
+}
+
+.contorno {
+    text-align: center;
+    font-family: Arial Black;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: -3px 0 rgb(121, 11, 11), 0 3px rgb(163, 9, 9), 3px 0 rgb(177, 8, 8), 0 -3px rgb(206, 16, 16);
+}
+
+.l3d {
+    text-align: center;
+    font-family: Arial Black;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.desenfoque {
+    text-align: center;
+    font-family: Arial Black;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0);
+    /* somb-x | somb-y | desenf-radio | color */
+    text-shadow: 0 0 3px #8E59A9;
+    text-transform: uppercase;
+}
+
+.neon {
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    COLOR: #1278BF;
+    text-shadow: 0px 0px 9px #c5e418;
+}
+
+.foto {
+    width: 300px;
+    height: 200px;
+    /*background-color: #c5e418;*/
+}
+
+.foto img {
+    width: 90%;
+    height: 90%;
+    /*la imagen se ajusta al contenido*/
+    object-fit: contain; 
+    /*mover la imagen dentro de un contenedor*/
+    object-position: 10px 20px
+}
+
+caption{
+    font-size: 20px;
+    color: #1278BF;
+    caption-side: top;
+}
+
+table{
+    /* cambiar el tamaño de las columnas */
+    /* table-layout:auto ;width: 50%; */
+    /* ajustar el texto a la celda */
+    /* table-layout: fixed; width: 30%; */
+    width: 50%;
+    margin: 0 auto;
+    /* border-spacing: 0; */
+    border-collapse: collapse;
+}
+
+.cabeza td{
+    background-color: #8E59A9;
+    color: #c5e418;
+}
+
+td, tr{
+    width: 25%;
+    text-align: center;
+    /* solid(linea entera),dashed(linea entrecortada),dotted(puntitos) */
+    border: 0.5px solid red;
+
+}
+
+footer img{
+    width: 20px;
+    height: 20px;
+}
