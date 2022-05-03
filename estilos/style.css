@@ -1,14 +1,15 @@
 * {
     margin: 0;
+    
 }
 
 nav {
-    background-color: cornflowerblue;
+    background-color: rgb(255, 30, 143);
 }
 
 .menu {
-    text-align: center;
-    margin: 0;
+    text-align: right;
+    margin: 2px;
 }
 
 .menu li {
@@ -16,24 +17,30 @@ nav {
 }
 
 .menu a {
-    padding: 45px;
+    padding: 19px;
     /*Separar los bloques*/
-    color: brown;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     display: block;
 }
 
 .menu a:hover {
-    background-color: aquamarine;
+    background-color: rgb(172, 13, 124);
+}
+
+.img2 img{
+    width: 100%;
+    height: 100%;
+    
 }
 
 .entrada {
-    background-color: darkcyan;
+    background-color: rgb(82, 82, 82);
     color: blue;
     text-align: center;
     overflow: hidden;
     /*Quitar el espacio sup. */
-    padding: 50px;
+    padding: 5px;
 }
 
 .contorno {
@@ -56,10 +63,10 @@ nav {
 
 .desenfoque {
     text-align: center;
-    font-family: Arial Black;
+    font-family: Arial black;
     font-weight: bold;
     font-size: 30px;
-    color: rgba(255, 255, 255, 0);
+    color: rgba(175, 59, 59, 0);
     /* somb-x | somb-y | desenf-radio | color */
     text-shadow: 0 0 3px #8E59A9;
     text-transform: uppercase;
