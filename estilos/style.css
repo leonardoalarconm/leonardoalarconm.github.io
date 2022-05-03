@@ -49,7 +49,7 @@ nav {
     font-weight: bold;
     font-size: 30px;
     color: #fff;
-    text-shadow: -3px 0 rgb(121, 11, 11), 0 3px rgb(163, 9, 9), 3px 0 rgb(177, 8, 8), 0 -3px rgb(206, 16, 16);
+    text-shadow: -3px 0 rgb(121, 11, 11), 0 3px rgb(0, 0, 0), 3px 0 rgb(177, 8, 8), 0 -3px rgb(206, 16, 16);
 }
 
 .l3d {
