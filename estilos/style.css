@@ -4,11 +4,16 @@
 }
 
 nav {
-    background-color: rgb(255, 30, 143);
+    background-color: rgb(255, 0, 76);
+}
+
+.navbar{
+    position: sticky;
+    top: 0px;
 }
 
 .menu {
-    text-align: right;
+    text-align: center;
     margin: 2px;
 }
 
@@ -25,7 +30,8 @@ nav {
 }
 
 .menu a:hover {
-    background-color: rgb(172, 13, 124);
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 76);
 }
 
 .img2 img{
@@ -35,12 +41,11 @@ nav {
 }
 
 .entrada {
-    background-color: rgb(82, 82, 82);
-    color: blue;
+    background-color: rgb(255, 0, 76);
     text-align: center;
-    overflow: hidden;
+    overflow:hidden;
     /*Quitar el espacio sup. */
-    padding: 5px;
+    padding: 20px;
 }
 
 .contorno {
@@ -48,8 +53,8 @@ nav {
     font-family: Arial Black;
     font-weight: bold;
     font-size: 30px;
-    color: #fff;
-    text-shadow: -3px 0 rgb(121, 11, 11), 0 3px rgb(0, 0, 0), 3px 0 rgb(177, 8, 8), 0 -3px rgb(206, 16, 16);
+    color: rgb(252, 249, 250);
+    text-shadow:  4px 4px rgb(150, 9, 9)
 }
 
 .l3d {
@@ -57,8 +62,9 @@ nav {
     font-family: Arial Black;
     font-weight: bold;
     font-size: 30px;
-    color: #fff;
-    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+    color: rgb(0, 0, 0);
+    text-shadow: 0 1px 0 #bbb, 0 2px 0 #bbb, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(255, 2, 2, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.15);
+    border: 0%;
 }
 
 .desenfoque {
@@ -81,24 +87,62 @@ nav {
 }
 
 .foto {
-    width: 300px;
-    height: 200px;
-    /*background-color: #c5e418;*/
+    
+    
+}
+
+.sec{
+    background-color: white;
+    margin: 0px 0px 40px 0px;
 }
 
 .foto img {
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
     /*la imagen se ajusta al contenido*/
     object-fit: contain; 
     /*mover la imagen dentro de un contenedor*/
-    object-position: 10px 20px
+    object-position: 0px 30px;
+    margin: 10px 10px 20px 10px;
+    
+}
+
+.parrafoimg{
+    text-align: justify;
+    margin: 0px 50px 90px 50px;
+}
+
+.banderas img{
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin: 10px;
+}
+
+.banderas p{
+    margin: 40px 30px 100px 10px ;
+    text-align: justify;
+}
+
+.banderas h1{
+    text-align: center;
+    color:#f8f8f8 ;
+    background-color: #e41818;
+    margin: 10px 0px;
+    font-size: 30px;
+    caption-side: top;
+    
 }
 
 caption{
-    font-size: 20px;
-    color: #1278BF;
+    font-size: 30px;
+    color: #f8f8f8;
     caption-side: top;
+    margin: 10px 0px 20px 0px;
+    background-color: #bf1212;
+}
+
+.tabl{background-color: rgb(224, 158, 158);
 }
 
 table{
@@ -106,26 +150,36 @@ table{
     /* table-layout:auto ;width: 50%; */
     /* ajustar el texto a la celda */
     /* table-layout: fixed; width: 30%; */
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     /* border-spacing: 0; */
-    border-collapse: collapse;
-}
+    border-collapse: collapse;}
+    
 
 .cabeza td{
-    background-color: #8E59A9;
-    color: #c5e418;
+    background-color: #fefbff;
+    color: #e41818;
 }
 
 td, tr{
     width: 25%;
     text-align: center;
     /* solid(linea entera),dashed(linea entrecortada),dotted(puntitos) */
-    border: 0.5px solid red;
+    border: 0.5px solid rgb(0, 0, 0);
 
+}
+
+.footercolor{
+    background-color: rgb(255, 0, 76);
+    color: white;
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
+    
 }
 
 footer img{
     width: 20px;
     height: 20px;
+    
 }
+
