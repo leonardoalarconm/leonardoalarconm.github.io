@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    background-color: rgb(238, 23, 23);
+}
+
+.nav{
+    background: brown;
+}
+
+.menu{
+    width: 500px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titulo{
+    font-size: 80px;
+    text-align: center;
+    margin: 10px 0px 5px 0px;
+    background: rgb(248, 190, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: royalblue;
+}
+
+ul{
+    list-style: none;
+}
+
+.lista > li{
+    float:left;}
+
+.lista li a{
+    background-color: rgb(248, 190, 0);
+    color: rgb(245, 49, 49);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.dina > li{
+    float: left;
+}
+
+
+.dina li a{
+    background-color: rgb(248, 190, 0);
+        color: rgb(245, 49, 49);
+        text-decoration: none;
+        padding: 10px 20px;
+        display: block;
+}
+
+.lista li a:hover{
+    background-color: rgb(160, 38, 38);
+    color: rgb(255, 238, 4);
+}
+.dina li a:hover{
+    background-color: rgb(160, 38, 38);
+        color: rgb(255, 238, 4);
+}
+.lista li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.dina li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.lista li:hover >ul{
+    display: block;
+}
+.dina li:hover>ul {
+    display: block;
+}
+
+.lista li ul li{
+    position: relative;
+}
+.dina li ul li{
+    position: relative;
+}
+.fotos h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.turismo{
+    display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}
+
+.postal{
+    padding: 0 20px 20px;
+}
+
+.postal img{
+    width: 350px;
+}
+
+img:hover{
+    opacity: .20;
+    transition: 1s;
+}
