@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    background-color: rgb(238, 23, 23);
+    background-color: rgb(233, 85, 85);
 }
 
 .nav{
@@ -17,9 +17,13 @@
     font-size: 80px;
     text-align: center;
     margin: 10px 0px 5px 0px;
-    background: rgb(248, 190, 0);
+    background: rgb(255, 199, 16);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: royalblue;
+            font-family: Arial Black;
+            font-weight: bold;
+            color: rgb(252, 249, 250);
+            text-shadow: 4px 4px rgb(13, 136, 236)
 }
 
 ul{
@@ -30,8 +34,8 @@ ul{
     float:left;}
 
 .lista li a{
-    background-color: rgb(248, 190, 0);
-    color: rgb(245, 49, 49);
+    background-color: rgb(255, 49, 49);
+    color: rgb(255, 227, 227);
     text-decoration: none;
     padding: 10px 20px;
     display: block;
@@ -43,20 +47,20 @@ ul{
 
 
 .dina li a{
-    background-color: rgb(248, 190, 0);
-        color: rgb(245, 49, 49);
+    background-color: rgb(255, 49, 49);
+        color: rgb(255, 277, 277);
         text-decoration: none;
-        padding: 10px 20px;
+        padding: 10px ;
         display: block;
 }
 
 .lista li a:hover{
     background-color: rgb(160, 38, 38);
-    color: rgb(255, 238, 4);
+    color: rgb(251, 255, 24);
 }
 .dina li a:hover{
     background-color: rgb(160, 38, 38);
-        color: rgb(255, 238, 4);
+        color: rgb(255, 255, 50);
 }
 .lista li ul{
     display: none;
@@ -83,9 +87,12 @@ ul{
     position: relative;
 }
 .fotos h1{
-    text-align: center;
+    text-align: left;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 20px 10px;
+    color: rgb(255, 240, 24);
+    text-decoration: underline;
 }
 
 .turismo{
@@ -101,10 +108,38 @@ ul{
 }
 
 .postal img{
-    width: 350px;
+    /* width: 390px;
+    max-width: 200%; */
+    max-height: 280px;
+    max-width: 280px;
 }
 
 img:hover{
     opacity: .20;
     transition: 1s;
+}
+
+.postal p{
+    text-align: center;
+    margin:5px;
+    color: white;
+}
+
+.fotos >p{
+    text-align: justify;
+    margin: 0px 15px 40px 10px;
+}
+
+.footercolor {
+    background-color: rgb(255, 240, 24);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
+
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+
 }
