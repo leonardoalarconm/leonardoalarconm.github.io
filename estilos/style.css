@@ -27,6 +27,9 @@ nav {
     color: rgb(255, 255, 255);
     text-decoration: none;
     display: block;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Zen Loop', cursive;
 }
 
 .menu a:hover {
@@ -50,7 +53,7 @@ nav {
 
 .contorno {
     text-align: center;
-    font-family: Arial Black;
+    font-family: 'Zen Loop', cursive;
     font-weight: bold;
     font-size: 30px;
     color: rgb(252, 249, 250);
@@ -116,7 +119,7 @@ nav {
 }
 
 .banderas p{
-    margin: 40px 30px 100px 10px ;
+    margin: 40px 30px 50px 10px ;
     text-align: justify;
 }
 
@@ -127,6 +130,7 @@ nav {
     margin: 10px 0px;
     font-size: 30px;
     caption-side: top;
+    font-family: 'Zen Loop', cursive;
     
 }
 
@@ -139,6 +143,10 @@ caption{
 }
 
 .tabl{background-color: rgb(224, 158, 158);
+}
+
+.tabl caption{
+    font-family: 'MonteCarlo', cursive;
 }
 
 table{
@@ -155,6 +163,8 @@ table{
 .cabeza td{
     background-color: #fefbff;
     color: #e41818;
+    font-size: 21px;
+
 }
 
 td, tr{
@@ -162,7 +172,13 @@ td, tr{
     text-align: center;
     /* solid(linea entera),dashed(linea entrecortada),dotted(puntitos) */
     border: 0.5px solid rgb(0, 0, 0);
+}
 
+.paises{
+    color: rgb(255, 255, 255);
+    background-color: #e41818;
+    font-weight: bold;
+    padding: 5px;
 }
 
 .footercolor{
