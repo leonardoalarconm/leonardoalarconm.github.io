@@ -1,0 +1,68 @@
+header{
+    display: flex;
+    /* separar dentro del bloque */
+    /* cada bloque se va separar en los extremmos */
+    justify-content: space-between;
+    /* darle tamaño al encabezado */
+    min-height: 70px;
+    background-color: royalblue;
+    /* alinear al centro todo */
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    /* si la imagen no centra */
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    /* para separar el texto de la imagen */
+    margin-right: 10px;
+    /* para separar la imagen */
+    margin-left: 10px;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* m0 es para hacer rapidamente */margin: 0;
+    
+}
+
+a{
+    /* quitara el subrayado */
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* del selector body solamente quiero el h2 */
+/* body > h2{ */
+    /* EJEMPLO */
+/* } */
+
+nav>a{
+    /* para darle mas anchura a la palabra */
+    /* negrita */
+    font-weight: 1000;
+    /* se separen hacia la derecha */
+    padding-right: 10px;
+}
+
+/* cuando la persona pase su mouse */
+/* seudoelemento */
+nav a:hover{
+    color:brown
+}
+
+@media(max-width:500px){
+    header{
+        flex-direction: column;
+    }
+    a{
+        color: rgb(1, 10, 136);
+    }
+    h2{
+        color: rgb(212, 212, 212);
+    }
+}

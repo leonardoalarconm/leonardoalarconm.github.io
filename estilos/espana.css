@@ -109,10 +109,12 @@ ul{
 }
 
 .postal img{
-    /* width: 390px;
-    max-width: 200%; */
-    max-height: 280px;
-    max-width: 280px;
+    width: 300px;
+    /* max-width: 200%; */
+    /* max-height: 280px;
+    max-width: 280px; */
+    height: 210px;
+    
 }
 
 img:hover{
