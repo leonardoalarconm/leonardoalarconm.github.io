@@ -50,28 +50,41 @@ body{
 
 .header{
     grid-area: header;
-    background-color: rgb(255, 116, 97);
+    background-color: rgb(223, 0, 0);
+    font-size: 80px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    font-weight: bold;
+    text-shadow: 4px 4px rgb(7, 5, 5)
 }
+
 
 .nav{
     grid-area: nav;
-    background-color: rgb(92, 92, 253);
+    background-color: rgb(255, 60, 53);
+
+}
+.nav a{
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-shadow: 2px 2px rgb(7, 5, 5);
 }
 
 .article {
     grid-area: article;
-    background-color: rgb(120, 230, 47);
+    background-color: rgb(235, 141, 141);
+}
+.article img{
+    text-align: center
 }
 
 .aside {
     grid-area: aside;
-    background-color: rgb(255, 202, 56);
+    background-color: rgb(255, 60, 53);
 }
 
-.footer {
-    grid-area: footer;
-    background-color: rgb(157, 19, 192);
-}
+
 
 /*----------------------------------------*/
 /*_____________EFECTOS DE IMAGEN__________*/
@@ -110,4 +123,16 @@ img:hover{
         200px auto 200px
         ;
     }
+}
+
+.footer {
+    grid-area: footer;
+    background-color: rgb(255, 0, 0);
+    font-size: 20px;
+    padding: 17px;
+    color: rgb(252, 190, 190);
+}
+.imagenfoo{
+    width: 20px;
+    height: 20px;
 }

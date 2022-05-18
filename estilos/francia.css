@@ -4,10 +4,11 @@ header{
     /* cada bloque se va separar en los extremmos */
     justify-content: space-between;
     /* darle tamaño al encabezado */
-    min-height: 70px;
-    background-color: royalblue;
+    min-height: 90px;
+    background-color: rgb(0, 127, 211);
     /* alinear al centro todo */
     align-items: center;
+    margin: 3px 0px 3px 0px;
 }
 
 .logo{
@@ -16,8 +17,14 @@ header{
     align-items: center;
 }
 
+.logo h2{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px rgb(19, 18, 18)}
+
+
 .logo img{
-    height: 50px;
+    height: 90px;
     /* para separar el texto de la imagen */
     margin-right: 10px;
     /* para separar la imagen */
@@ -34,6 +41,7 @@ a{
     /* quitara el subrayado */
     text-decoration: none;
     color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
 /* del selector body solamente quiero el h2 */
@@ -46,13 +54,13 @@ nav>a{
     /* negrita */
     font-weight: 1000;
     /* se separen hacia la derecha */
-    padding-right: 10px;
+    padding-right: 30px;
 }
 
 /* cuando la persona pase su mouse */
 /* seudoelemento */
 nav a:hover{
-    color:brown
+    color:rgb(0, 10, 143)
 }
 
 @media(max-width:500px){
@@ -63,6 +71,71 @@ nav a:hover{
         color: rgb(1, 10, 136);
     }
     h2{
-        color: rgb(212, 212, 212);
+        color: rgb(252, 7, 7);
     }
+}
+
+.iprincipal img{
+    /* text-align: center; */
+    width: 100%;
+    height: 100%;
+}
+
+.bandera h1{
+    font-size: 40px;
+    color: rgb(0, 52, 148);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.bandera div {
+    text-align: center;
+}
+.bandera p{
+    text-align: justify;
+    padding: 0px 120px 0px 120px;
+}
+
+.origen h1{
+    font-size: 40px;
+    color: rgb(0, 52, 148);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.origen img{
+    width: 360px;
+    height: 300px;
+}
+.origenimagen{
+    text-align: center;
+}
+.origen p{
+    text-align: justify;
+    padding: 0px 120px;
+}
+
+.prehistoria h1{
+    font-size: 40px;
+    color: rgb(0, 52, 148);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.prehistoriaimg{
+    text-align: center;
+}
+.prehistoria p{
+    text-align: justify;
+    padding: 0px 120px
+}
+.prehistoria{
+    margin: auto auto 80px auto;
+}
+
+.footer{
+    background-color:lightblue;
+    margin: 0px 0px 0px 0px;
+    padding: 0.3px;
+}
+.footer img{
+    width: 20px;
+    height: 20px;
 }

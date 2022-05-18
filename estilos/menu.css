@@ -1,0 +1,69 @@
+/* menu horizontal con transiciones */
+
+/* formato general de cada item */
+
+.menu{
+    display: block;
+    position: relative;/*si se encoge la pagina va tomar el mismo tamaño*/
+    height: 70px;
+    width: 120px;
+    margin: 0;/*para escribir mas rapido se pone "m0"*/
+    overflow: hidden;/*dentro de cada bloque puede haber un bloque encima de el*/
+}
+
+/* bordes superiores */
+
+.menu.servicios{
+    border-top: red 0.3em solid;
+}
+
+.menu.proyectos{
+    border-top: green 0.3em solid;
+}
+
+.menu.recursos{
+    border-top: blueviolet 0.3em solid;
+}
+
+.menu.contacto{
+    border-top: yellow 0.3em solid;
+}
+
+/* atributos y transiciones */
+
+.menu>span{
+    display: block; /*todo en un bloque*/
+    position: absolute;/* ese span estara dentro del formatogeneral*/
+    overflow: hidden;/* aparece modificacion en la parte de arriba*/
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    transition: 0.5s ease-in-out; /*lento-normal-lento*/
+    
+}
+
+/* el span es abarcar es un contenedor en linea sirve para agrupar el estilo que le daras a< */
+
+.menu:after, .menu>span>span {
+    display: block;
+    text-align: center;
+    border-radius: 0em;
+    padding: 2em 0 1.5em;
+}
+
+.menu:after {
+    content: attr(data-title); /*que pasara con el contenido*/
+    width: 100%;
+    background: #000;
+    color: #fff;
+}
+
+/* lo que la maquina realizara al momento de ejecutarse */
+.menu>span>span {
+    width: 120px;
+    color: #fff;
+}
+.menu:hover>span {
+    height: 100%;
+}

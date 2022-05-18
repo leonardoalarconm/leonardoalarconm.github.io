@@ -88,8 +88,8 @@ ul{
     position: relative;
 }
 .fotos h1{
-    text-align: left;
-    font-size: 30px;
+    text-align: center;
+    font-size: 40px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px 0px 20px 10px;
     color: rgb(255, 240, 24);
@@ -98,10 +98,10 @@ ul{
 
 .turismo{
     display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .postal{
@@ -154,3 +154,71 @@ footer img {
 b{
     background-color: rgb(255, 240, 24);
 }
+
+.historia p{
+    text-align: justify;
+    margin: 0px 15px 20px 10px;
+    
+}
+
+.historia h1{
+    text-align: left;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px 0px 20px 10px;
+    color: rgb(255, 240, 24);
+    text-decoration: underline;
+    
+}
+
+
+.historia sub{
+    margin: 0px 0px 50px 10px;
+    color: rgb(253, 241, 127);
+    font-size: 20px;
+    
+}
+
+.origen{
+    color: rgb(0, 0, 0);
+    padding: 8px 60px 0px 60px;
+    text-align:justify;
+    
+}
+
+/* .imgorigen{
+    padding: 0px 0px 10px 85px;
+    width: 50px;
+    height: 60px;
+} */
+
+.origenol ol {
+    text-align: auto;
+    padding: 0px 0px 0px 85px;
+    list-style-type:disc;
+    
+}
+
+.fotoorigen{
+    padding: 0px 0px 10px 85px;
+    
+}
+
+.bandera h1{
+    text-align: left;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 30px 0px 20px 10px;
+    color: rgb(255, 240, 24);
+    text-decoration: underline;
+}
+.bandera >p{
+    text-align: justify;
+    margin: 0px 80px 5px 10px;
+}
+.bandera img{
+    padding: 0px 20px 20px 20px;
+    float: left;
+    width: 300px;
+}
+

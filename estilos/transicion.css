@@ -1,0 +1,67 @@
+.cuadrado{
+    position: relative;
+}
+
+.caja{
+    height: 180px;
+    width: 180px;
+    background-color: darkslategrey;
+    color: coral;
+    text-align: center;
+    line-height: 180px;
+    margin: 15px; /*separa los bordes*/
+    float: left;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cuadro1{
+    background-color: rgb(3, 0, 209);
+    /* -webkit-transition: background-color 1s linear; */
+    /* transition: background-color 1s linear; */
+    transition-property: background-color;
+    transition-duration: 5s;
+    transition-delay: linear; /*va tener un mismo efecto para todos*/
+}
+.cuadro1:hover{
+    background-color:rgb(63, 97, 1);
+}
+
+.cuadro2{
+    background-color: brown;
+    transition-property: font-size;
+    transition-duration: 3s;
+    transition-delay: ease; /*es lento -rapido - lento*/
+}
+.cuadro2:hover{
+    font-size: 24px;
+}
+
+.cuadro3{
+    background-color: rgb(79, 47, 47);
+    transition-property: color;
+    transition-duration: 3s;
+    transition-delay:ease-in; /*lento- normal y normal*/
+    
+}
+.cuadro3:hover{
+    color: rgb(252, 0, 0);
+}
+
+.cuadro4{
+    background-color: aqua;
+    transition-property: line-heigh;
+    transition-duration: 3s;
+    transition-delay: ease-out;/* empieza norrmal -normal y termina lento*/
+}
+.cuadro4:hover{
+    line-height: 250px;
+}
+
+.cuadro5{
+    background-color: rgb(110, 132, 255);
+    transition: border-radius 5s ease-in-out; /*lento -normal -lento*/
+}
+.cuadro5:hover{
+    border-radius: 20px;
+}
