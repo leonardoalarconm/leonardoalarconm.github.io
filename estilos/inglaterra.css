@@ -142,10 +142,10 @@ body{
 }
 .imagenbandera img{
     background: border-box rgb(0, 0, 0);
-    padding: 1px;
-    width: 320px;
-    margin: 10px;
-    float:inline-start;
+    padding: 5px;
+    width: 73%;
+    margin: 0px;
+    background-color: rgb(136, 136, 136);
 }
 .imagenbandera{
     text-align: center;

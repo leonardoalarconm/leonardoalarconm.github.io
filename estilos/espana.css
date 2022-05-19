@@ -65,7 +65,7 @@ ul{
 }
 .lista li ul{
     display: none;
-    position: absolute;
+    position:absolute;
     min-width: 140px;
 }
 .dina li ul{
